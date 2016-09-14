@@ -9,3 +9,7 @@ colorscheme solarized " solorized colorsceme: github.com/altercation/vim-colors-
 
 set number
 
+
+" vim config
+
+set directory^=$HOME/.vim/tmp//
