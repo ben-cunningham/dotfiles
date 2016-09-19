@@ -13,3 +13,4 @@ set number
 " vim config
 
 set directory^=$HOME/.vim/tmp//
+set autoindent
