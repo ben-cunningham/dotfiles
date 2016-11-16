@@ -1,4 +1,4 @@
-" ------ colors ------
+"------ colors ------
 
 syntax enable
 let g:solarized_termcolors = 256
@@ -14,6 +14,7 @@ set showmatch
 
 set directory^=$HOME/.vim/tmp//
 set autoindent
+set ignorecase
 "remap ctrl+w to ctrl for navigation
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
