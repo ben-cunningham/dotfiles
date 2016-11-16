@@ -8,7 +8,7 @@ colorscheme solarized " solorized colorsceme: github.com/altercation/vim-colors-
 " ------ UI config ------
 
 set number
-
+set showmatch
 
 " ------ vim config ------
 
