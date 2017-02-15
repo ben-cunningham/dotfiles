@@ -24,3 +24,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+" use a+j/k to move line up or down
+nnoremap aj :m .+1<CR>==
+nnoremap ak :m .-2<CR>==
