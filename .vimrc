@@ -12,9 +12,13 @@ set showmatch
 
 " ------ vim config ------
 
+set shiftwidth=4
 set directory^=$HOME/.vim/tmp//
 set autoindent
 set ignorecase
+set expandtab
+"map escape to jk
+imap jk <Esc>
 "remap ctrl+w to ctrl for navigation
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
