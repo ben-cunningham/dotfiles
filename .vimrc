@@ -16,7 +16,9 @@ set shiftwidth=4
 set directory^=$HOME/.vim/tmp//
 set autoindent
 set ignorecase
+set incsearch
 set expandtab
+
 "map escape to jk
 imap jk <Esc>
 "remap ctrl+w to ctrl for navigation
@@ -28,3 +30,10 @@ nnoremap <C-l> <C-w>l
 " use a+j/k to move line up or down
 nnoremap aj :m .+1<CR>==
 nnoremap ak :m .-2<CR>==
+
+nnoremap ; :
+
+set splitbelow
+set splitright
+
+set showcmd
