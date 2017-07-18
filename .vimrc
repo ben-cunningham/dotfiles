@@ -11,6 +11,7 @@ set showmatch
 set shiftwidth=4
 set directory^=$HOME/.vim/tmp//
 set autoindent
+set copyindent
 set ignorecase
 set incsearch
 set expandtab
@@ -26,6 +27,11 @@ nnoremap <C-l> <C-w>l
 " use a+j/k to move line up or down
 nnoremap aj :m .+1<CR>==
 nnoremap ak :m .-2<CR>==
+
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
 
 nnoremap ; :
 
