@@ -1,6 +1,12 @@
+set nocompatible              " be iMproved, required
+filetype off
+
 "------ colors ------
 
+colorscheme solarized
+set background=dark
 syntax enable
+set t_Co=256
 
 " ------ UI config ------
 set number
@@ -40,3 +46,12 @@ set splitbelow
 set splitright
 
 set showcmd
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'micha/vim-colors-solarized'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
