@@ -7,6 +7,7 @@ colorscheme solarized
 set background=dark
 syntax enable
 set t_Co=256
+let g:solarized_termcolors=256
 
 " ------ UI config ------
 set number
@@ -22,6 +23,7 @@ set ignorecase
 set incsearch
 set expandtab
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set noswapfile
 
 "map escape to jk
 imap jk <Esc>
@@ -52,6 +54,15 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'micha/vim-colors-solarized'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" ------- CtrlP ------
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+let g:ctrlp_working_path_mode = 'ra'
+
+
